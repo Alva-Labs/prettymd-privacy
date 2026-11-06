@@ -52,4 +52,4 @@ If PrettyMD's features or data handling change, this policy will be updated at t
 
 ## Contact
 
-If you have questions about this policy or PrettyMD, email **[your-contact-email@example.com]**.
+If you have questions about this policy or PrettyMD, email **bwiriyapong@gmail.com**.
