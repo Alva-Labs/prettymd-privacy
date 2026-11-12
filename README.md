@@ -1,9 +1,9 @@
 # PrettyMD Privacy Policy
 
 **Last updated:** Nov 12, 2026
-**Applies to:** PrettyMD version [0.7.3]
+**Applies to:** PrettyMD version 0.8.3
 
-PrettyMD is a Chrome extension that displays local Markdown (`.md`, `.markdown`) and plain-text (`.txt`, `.log`) files as readable pages and lets you edit them.
+PrettyMD is a Chrome extension that displays local Markdown (`.md`, `.markdown`) and plain-text (`.txt`, `.log`) files as readable pages, lets you edit them, and lets you enlarge images in a document to inspect them.
 
 ## Summary
 
@@ -38,6 +38,7 @@ Your choice to view a plain-text file as plain text or as Markdown applies only 
 - If a document shown as Markdown references an online image (for example, `https://example.com/image.png`), your browser requests it from that website, just as with any web page. The website receives the image's address, your IP address and browser details, and handles them under its own privacy policy. PrettyMD does not control or receive this information.
 - Images on plain `http:` addresses are loaded without encryption, so the request can be seen on the network.
 - Following a link in a document to a website opens that website, like any link.
+- **Enlarge image** displays the image using the same address as the document. It does not upload the image or save a separate copy. If Chrome requests the image again, the request goes to the image host.
 - Plain-text files shown as plain text load no images or other external content.
 - All of PrettyMD's own code, fonts and libraries are bundled inside the extension. It loads no code from remote servers.
 
@@ -53,13 +54,13 @@ Your choice to view a plain-text file as plain text or as Markdown applies only 
 
 - PrettyMD requests only the `storage` permission, to remember the settings listed above.
 - It runs only on local file pages (`file://`), which requires Chrome's **Allow access to file URLs** switch. On local files it doesn't support, it does nothing.
-- It has no access to websites.
+- PrettyMD runs only on local file pages. Chrome can still load online images referenced in those files or open websites when you follow a link.
 
 ## Limited use
 
 PrettyMD's use of information complies with the [Chrome Web Store User Data Policy](https://developer.chrome.com/docs/webstore/program-policies/user-data-faq), including the Limited Use requirements.
 
-Any user data PrettyMD handles is used only to provide its disclosed functionality: displaying, editing and saving documents, and remembering your settings. It is not sold, not used for purposes unrelated to that functionality, and not used to determine creditworthiness or for lending purposes. PrettyMD does not transfer data to third parties; the only outside requests are the image loads described in *Online images and links*, which your browser makes to the image's host.
+Any user data PrettyMD handles is used only to provide its disclosed functionality: displaying, editing and saving documents, enlarging images, and remembering your settings. It is not sold, not used for purposes unrelated to that functionality, and not used to determine creditworthiness or for lending purposes. PrettyMD does not sell user data or upload your documents. Online image hosts and websites you choose to visit receive the browser requests described above.
 
 ## Children
 
@@ -67,7 +68,7 @@ PrettyMD collects no personal information from anyone, including children.
 
 ## Changes to this policy
 
-If PrettyMD's features or data handling change, this policy will be updated at this page with a new "Last updated" date.
+If PrettyMD's features or data handling change, this policy will be updated at this page with a new "Last updated" date. If a change affects how PrettyMD handles your data, users will be notified before or when that version is released, for example in the Chrome Web Store listing and the release notes.
 
 ## Contact
 
