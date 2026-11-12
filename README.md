@@ -1,7 +1,7 @@
 # PrettyMD Privacy Policy
 
 **Last updated:** Nov 12, 2026
-**Applies to:** PrettyMD version [release version, currently 0.7.3]
+**Applies to:** PrettyMD version [0.7.3]
 
 PrettyMD is a Chrome extension that displays local Markdown (`.md`, `.markdown`) and plain-text (`.txt`, `.log`) files as readable pages and lets you edit them.
 
